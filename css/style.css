@@ -285,9 +285,9 @@ h6,
   }
 
   .primary-btn-color{
-    background-color: #f05922;
-    
-  }
+    background: linear-gradient(45deg, #f05922, #f1da05);
+}
+
   .secondary-text{
 
   
@@ -300,8 +300,9 @@ h6,
   }
 
 
-
-  
+  .gradient-button {
+    background: linear-gradient(90deg, #f05922, #f07f15);
+}
 
 
 
