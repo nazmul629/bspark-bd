@@ -119,7 +119,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(21, 36, 64, .7);
+    background: rgba(40, 56, 85, 0.322);
     z-index: 1;
 }
 
@@ -298,11 +298,6 @@ h6,
 
     color: white;
   }
-
-
-  .gradient-button {
-    background: linear-gradient(90deg, #f05922, #f07f15);
-}
 
 
 
