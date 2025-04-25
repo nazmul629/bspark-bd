@@ -331,7 +331,7 @@ h6,
 
 
 .scroll-container {
-    overflow:auto;
+    overflow:hidden;
     white-space: nowrap;
     position: relative;
 }
