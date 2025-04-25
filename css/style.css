@@ -303,6 +303,7 @@ h6,
 
 
 
+
   /* General Styles */
 .service-item {
     background-color: #f8f9fa; /* Light background for the card */
@@ -318,6 +319,7 @@ h6,
     transform: scale(1.05);
 }
 
+
 /* Image Styles */
 .service-img {
     width:100%;
@@ -327,8 +329,7 @@ h6,
 
 }
 
-
-
+/*  colaborations  */
 
 .scroll-container {
     overflow:hidden;
@@ -337,13 +338,13 @@ h6,
 }
 
 .scroll-content {
-    display: inline-block;
+    display: inline{"Ud":"l","T5":1}-block;
     animation: scroll-left 30s linear infinite;
 }
 
 .team-item {
     display: inline-block;
-    width: 280px;
+    width: 280px;{"Ud":"l","T5":1}
     height: inherit;
     margin: 10px 5px;
     vertical-align: top;
@@ -356,7 +357,7 @@ h6,
 
      /* border-radius: 50%; Make it round */
      /* Optional border color */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional shadow */
+    box-shadow: 0 4px 8px rgba(15, 93, 93, 1); /* Optional shadow */
 }
 
 @keyframes scroll-left {
@@ -368,7 +369,9 @@ h6,
     }
 }
 
-
+.team-item:hover {
+    transform: scale(1.1); /* Zoom in effect */
+}
 /* end colaborations  */
 
 
