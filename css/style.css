@@ -337,18 +337,22 @@ h6,
     position: relative;
 }
 
+
 .scroll-content {
-    display: inline{"Ud":"l","T5":1}-block;
-    animation: scroll-left 30s linear infinite;
+    display: inline-block;
+    animation: scroll-left 50s linear infinite;
 }
 
 .team-item {
     display: inline-block;
-    width: 280px;{"Ud":"l","T5":1}
+    width: 280px;
     height: inherit;
     margin: 10px 5px;
     vertical-align: top;
 }
+
+
+
 
 .team-item img {
     width: 90%;
