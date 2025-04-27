@@ -376,7 +376,58 @@ h6,
 .team-item:hover {
     transform: scale(1.1); /* Zoom in effect */
 }
-/* end colaborations  */
+
+/* office address  contract.html  */
+
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #ccc;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+}
+.timeline-item {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.marker {
+    width: 50px;
+    height: 70px;
+    border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto 1rem auto;
+    font-size: 1.5rem;
+}
+.office-1 { background: #7bb127; }
+.office-2 { background: #8f4fc2; }
+.office-3 { background: #d04227; }
+.office-4 { background: #2a6833; }
+.factory  { background: #136265; }
+.timeline-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.timeline-col {
+    flex: 0 0 auto;
+    width: 200px;
+    padding: 1rem;
+}
+/* office address  contract.html  end */
+
 
 
 /* Responsive Grid */
