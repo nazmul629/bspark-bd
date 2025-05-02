@@ -58,3 +58,10 @@
     
 })(jQuery);
 
+const links = document.querySelectorAll('.nav-link-item');
+links.forEach(link => {
+    link.addEventListener('click', function () {
+        links.forEach(el => el.classList.remove('active', 'text-primary'));
+        this.classList.add('active', 'text-primary');
+    });
+});

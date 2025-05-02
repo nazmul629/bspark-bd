@@ -448,4 +448,6 @@ h6,
 
 
 
-  
+.nav-link-item.active {
+    font-weight: bold;
+}
